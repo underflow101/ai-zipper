@@ -1,16 +1,20 @@
 # ai-zipper
-ai-zipper offers numerous AI model compression methods, also it is easy to embed into your own source code
+ai-zipper offers numerous AI model(CNN) compression methods, also it is easy to embed into your own source code
 
 ## Version 0.0.1
 
 ### What is ai-zipper?
-- ai-zipper offers several AI-Optimization and/or Model-Compression methods.
+- ai-zipper offers several AI-Optimization and/or Model-Compression methods for CNN based networks
     - List of methods that will be offered later:
         - [ ] Quantization
         - [ ] Unstructured Pruning
         - [ ] Structured Pruning
         - [ ] Knowledge Distillation
         - [ ] ...and more
+
+### Why Do I Need ai-zipper?
+- You need ai-zipper when your model(network) is exceptionally slow, or too big to put into your system
+- ai-zipper reduces the size of your convolutional network, and improves inference latency
 
 ### How does it work?
 - List below shows which package is used for specific methods:
